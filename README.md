@@ -1,36 +1,53 @@
-#FOCUSQUEST
+# FocusQuest
 
-##¿Qué es FocusQuest?
+Aplicación de gestión de tareas desarrollada en Python como proyecto práctico de aprendizaje y desarrollo de habilidades de programación.
 
-FocusQuest es un programa desarrollado en Python con objetivo de aprender las nociones básicas del lenguaje de programación.
+## ¿Qué es FocusQuest?
 
-#¿Qué funciones tiene FocusQuest?
+FocusQuest es un programa de consola que permite gestionar tareas mediante un sistema sencillo e interactivo.
 
-###Añadido de tareas
-###Eliminación de tareas
-###Gestión de tareas
-###Guardado de tareas mediante JSON
+El proyecto se ha desarrollado para poner en práctica conceptos fundamentales de Python y aprender a utilizar herramientas de desarrollo profesional.
 
-##¿Qué tecnologías han sido usadas en FocusQuest?
+## Funcionalidades
 
-###Python
-###Unittest
-###JSON
-###Git
-###GitHub
+- Añadir tareas.
+- Eliminar tareas.
+- Mostrar las tareas registradas.
+- Guardar y recuperar tareas mediante archivos JSON.
+- Evitar tareas vacías y duplicadas.
 
+## Tecnologías utilizadas
+
+- **Python:** lenguaje de programación principal.
+- **unittest:** biblioteca para realizar pruebas automatizadas.
+- **JSON:** formato utilizado para almacenar los datos.
+- **Git:** sistema de control de versiones.
+- **GitHub:** plataforma de alojamiento del repositorio.
 
 ## Instalación y ejecución
 
 1. Clonar el repositorio:
+
+   ```bash
    git clone https://github.com/Patatitaaa/FocusQuest.git
+   ```
 
 2. Entrar en la carpeta:
+
+   ```bash
    cd FocusQuest
+   ```
+
+3. Ejecutar el programa:
+
+   ```bash
+   python main.py
+   ```
 
 ## Ejecutar las pruebas
 
-python -m unittest -v
+Para ejecutar las pruebas automatizadas:
 
-4. Ejecutar el programa:
-   python main.py
+```bash
+python -m unittest -v
+```
